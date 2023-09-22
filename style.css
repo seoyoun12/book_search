@@ -1,0 +1,136 @@
+@font-face {
+  font-family: 'HakgyoansimWoojuR';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimWoojuR.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  margin:0; padding: 0;
+  font-family: 'HakgyoansimWoojuR', sans-serif;
+  color:#333;
+  text-decoration:none;
+}
+
+
+body{
+  margin: 0 auto;
+  max-width:1200px;
+  background:#fbeeea;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top:40px;
+  margin-bottom:20px;
+}
+
+.searchbox{
+  display:flex;
+  gap:5px;
+  margin:0 auto;
+  justify-content: center;
+}
+
+.search_text{
+  width: 200px; height:25px;
+  padding-left:5px;
+  box-sizing: border-box;
+  border:1px solid #f8ac9a;
+  border-radius:5px;
+  line-height: 25px;
+  margin-bottom:30px;
+  font-size:16px;
+
+}
+.search_btn{
+  width:50px; height: 25px;
+  background: #f8ac9a; color:#fff;
+  font-weight: bold;
+  box-sizing: border-box;
+  border:1px  solid #f8ac9a;
+  border-radius:5px;
+  line-height:25px;
+  font-size:22px;
+  cursor: pointer;
+}
+
+.search_btn:hover{
+  background: #fe8b71;
+}
+
+
+.results{
+  display: flex;
+  flex-flow:row wrap;
+  justify-content:space-evenly;
+}
+
+.results .defalt_text{
+  font-size:24px;
+  color:#fe8b71;
+}
+
+.info{
+  font-size:24px;
+  width:100%;
+  text-align: center;
+  margin-bottom:20px;
+  
+}
+.info span{
+  font-weight: bold;
+}
+
+.results .databox{
+  width:290px; 
+  border-radius:15px;
+  border:1px solid #fff;
+  background: #fff;
+  padding:10px;
+  box-sizing: border-box;
+  margin-bottom:30px;
+  box-shadow:1px 1px 10px 0px rgba(0,0,0,0.15);
+}
+
+.results .databox:hover{
+  border:1px solid #fe8b71;
+}
+
+.results .databox .thumnail{
+  float: left;
+  margin-right:10px;
+}
+
+.results .databox .title{
+  margin-bottom:5px;
+}
+
+.results .databox p{
+  margin-bottom:5px;
+  line-height:1.6em;
+}
+
+.page{
+  display: flex;
+  justify-content: center; align-items: center;  
+  margin-bottom:30px;
+  font-weight: bold;
+  font-size:24px;
+}
+
+.page button{
+  width:45px;
+  height:30px;
+  margin:0 10px;
+  background: #f8ac9a;
+  border:1px solid #f8ac9a;
+  border-radius:5px;
+  font-weight: bold;
+  font-size:20px;
+  color:#fff;
+}
+.page button:hover{
+  background:#fe8b71;
+}
